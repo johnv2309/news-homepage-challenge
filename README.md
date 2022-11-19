@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Repository URL: [Github]()
+- Repository URL: [Github](https://github.com/johnv2309/news-homepage-challenge)
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://johnv2309-news-homepage-challenge.netlify.app/)
 
 ## My process
 
