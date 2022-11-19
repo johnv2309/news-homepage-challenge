@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: [Github](https://github.com/johnv2309/news-homepage-challenge)
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-with-react-sass-and-vite-q1lCIza5zK)
 - Live Site URL: [Netlify](https://johnv2309-news-homepage-challenge.netlify.app/)
 
 ## My process
