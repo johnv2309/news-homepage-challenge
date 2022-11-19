@@ -1,0 +1,45 @@
+@use "variables" as *;
+
+.trending {
+  &__article {
+    // border: $debug;
+    display: flex;
+    gap: 1.5rem;
+    height: 7.5rem;
+  }
+
+  &__image {
+    height: 100%;
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    span {
+      color: $grayish-blue;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      line-height: 1;
+      font-size: 1rem;
+
+      a {
+        color: $very-dark-blue;
+        text-decoration: none;
+        transition: color 0.25s;
+
+        &:hover {
+          color: $soft-red;
+        }
+      }
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}

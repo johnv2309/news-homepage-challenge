@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+.popular {
+  &__image {
+    grid-area: popImage;
+  }
+  &__title {
+    grid-area: popTitle;
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  &__about {
+    grid-area: popAbout;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+
+    button {
+      background: $soft-red;
+      color: $off-white;
+      border: none;
+      width: fit-content;
+      padding: 0.75rem 2rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 0.875rem;
+      letter-spacing: 0.25rem;
+      transition: background 0.25s;
+
+      &:hover {
+        background: $very-dark-blue;
+      }
+    }
+  }
+}

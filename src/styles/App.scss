@@ -1,0 +1,31 @@
+@use "variables" as *;
+
+.App {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "popImage"
+    "popTitle"
+    "popAbout"
+    "new";
+  gap: 1.5rem;
+  width: 20rem;
+  padding: 2rem 0;
+  margin: auto;
+  @media (min-width: 30.0625rem) {
+    width: 28rem;
+  }
+  @media (min-width: 40.0625rem) {
+    width: 38rem;
+  }
+  @media (min-width: 64.0625rem) {
+    width: 64rem;
+    grid-template-areas:
+      "header header header"
+      "popImage popImage new"
+      "popTitle popAbout new";
+  }
+  @media (min-width: 80.0625rem) {
+    width: 70rem;
+  }
+}
