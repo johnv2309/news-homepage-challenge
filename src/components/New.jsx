@@ -2,7 +2,7 @@ import styles from "../styles/New.module.scss";
 
 export function New() {
   return (
-    <aside className={styles.new}>
+    <main className={styles.new}>
       <h2 className={styles.new__title}>New</h2>
       <section className={styles.new__section}>
         <article className={styles.section__article}>
@@ -33,6 +33,6 @@ export function New() {
           </p>
         </article>
       </section>
-    </aside>
+    </main>
   );
 }
