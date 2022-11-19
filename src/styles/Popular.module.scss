@@ -16,13 +16,14 @@
     justify-content: space-between;
     gap: 2rem;
 
-    button {
+    a {
       background: $soft-red;
       color: $off-white;
       border: none;
       width: fit-content;
       padding: 0.75rem 2rem;
       text-transform: uppercase;
+      text-decoration: none;
       font-weight: bold;
       font-size: 0.875rem;
       letter-spacing: 0.25rem;
