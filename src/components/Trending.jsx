@@ -7,7 +7,12 @@ export function Trending() {
   return (
     <>
       <article className={styles.trending__article}>
-        <img className={styles.trending__image} src={retroPcs} />
+        <img
+          className={styles.trending__image}
+          src={retroPcs}
+          alt=""
+          aria-hidden="true"
+        />
         <div className={styles.trending__about}>
           <span>01</span>
           <h2>
@@ -17,7 +22,12 @@ export function Trending() {
         </div>
       </article>
       <article className={styles.trending__article}>
-        <img className={styles.trending__image} src={topLaptops} />
+        <img
+          className={styles.trending__image}
+          src={topLaptops}
+          alt=""
+          aria-hidden="true"
+        />
         <div className={styles.trending__about}>
           <span>02</span>
           <h2>
@@ -27,7 +37,12 @@ export function Trending() {
         </div>
       </article>
       <article className={styles.trending__article}>
-        <img className={styles.trending__image} src={gaming} />
+        <img
+          className={styles.trending__image}
+          src={gaming}
+          alt=""
+          aria-hidden="true"
+        />
         <div className={styles.trending__about}>
           <span>03</span>
           <h2>

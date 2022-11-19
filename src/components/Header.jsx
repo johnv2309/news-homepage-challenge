@@ -11,7 +11,11 @@ export function Header() {
   }
   return (
     <header className={styles.header}>
-      <img className={styles.header__logo} src={logo} />
+      <img
+        className={styles.header__logo}
+        src={logo}
+        alt="A big W with a dot on it's side."
+      />
       <nav
         className={
           menu ? `${styles.header__nav} ${styles.active} ` : styles.header__nav
@@ -39,6 +43,7 @@ export function Header() {
         className={menu ? styles.header__open : styles.header__close}
         src={menu ? menuClose : menuOpen}
         onClick={toggleMenu}
+        alt="Toggle navigation menu"
       />
     </header>
   );

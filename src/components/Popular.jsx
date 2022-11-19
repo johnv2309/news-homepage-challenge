@@ -6,7 +6,7 @@ export function Popular() {
     <>
       <picture className={styles.popular__image}>
         <source media="(min-width:1025px)" srcSet={desktopImage} />
-        <img src={mobileImage} />
+        <img src={mobileImage} alt="" aria-hidden="true" />
       </picture>
       <h1 className={styles.popular__title}>The Bright Future of Web 3.0?</h1>
       <p className={styles.popular__about}>
